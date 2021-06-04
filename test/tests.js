@@ -1,7 +1,15 @@
 // IMPORT MODULES under test here:
 // import { add } from '../calculator.js';
 
+import { isEven } from '../is-even.js'
+
 const test = QUnit.test;
+
+test('is even'), (expect) => {
+    const expected = true;
+    const actual = isEven(2)
+    expect.equal(acutal, expected);
+}
 
 // name your test by what it is testing
 test('time to test a function', (expect) => {
